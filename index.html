@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L'element deplaçable</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+#drag{
+height: 100px;
+width: 150px;
+border:solid black 2px;
+border-radius: 4px;
+text-align: center;
+}
+	</style>
+
+</head>
+<body>
+
+	<div id="drag">
+	drag me if u want !
+	</div>
+
+<script src="http://code.jquery.com/jquery.min.js"></script> 
+<script src="deplacable.js"></script> 
+
+<script>
+	$(document).ready(function(){
+
+		$("#drag").depla();
+
+	});
+</script>
+
+</body>
+</html>
